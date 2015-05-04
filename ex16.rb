@@ -1,7 +1,7 @@
 # READING AND WRITING FILES
 # ran ruby ex16.rb test.txt in console
 
-filename = ARGV.first # declares the filename variable and uses ARGV to assign the value stored in ARGV and entered in the console to the newly created filename variable
+filename = ARGV.first # declares the 'filename' variable and uses ARGV to assign the value stored in ARGV and entered in the console to the newly created filename variable
 
 puts "We're going to erase #{filename}" # prints string in which #{filename} is replaced with the value of the filename variable
 puts "If you don't want that, hit CTRL-C (^C)." # prints instructional string
